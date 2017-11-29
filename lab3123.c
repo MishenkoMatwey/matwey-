@@ -18,8 +18,6 @@ int main ()
 			{
 				i++;   		 
 				text[i] = '\n';
-			
-			
 			}		    
                 if (text[i]=='\t')
 			{
@@ -28,10 +26,6 @@ int main ()
 				
 
 		}
-
-
-
-		
 
 		if (text[i] == '.' || text[i] == '?' || text[i] == ';')	
 			
@@ -47,18 +41,7 @@ int main ()
 
 			}
 
-	//	if (fl==0)
-	//{printf("%s",text);}
-         //	else //(fl==1)
-	//		fl=0;
 
-
-
-
-
-
-
-//printf("%s",text);
 return 0;
 }
 
