@@ -27,19 +27,24 @@ int main ()
 
 		}
 
-		if (text[i] == '.' || text[i] == '?' || text[i] == ';')	
-			
-		{
-			i=len;
-		if (isalpha(text[i]) ==0 &&  text[i-1] !=' ') 
-			{
-			i=i-len;	
-			printf("%s",text);	
-			} 
-		else 
-		printf("%s",text);
+	 if (text[i] == '.' || text[i] == '?' || text[i] == ';')
+	{
+                len=i;
+                for (i>0;i<len;i++){
+                if (isalpha(text[i]) ==0 &&  text[i-1] !=' ')
 
-			}
+                        {
+                        i=i-len;
+                        printf("%c",text[len]);
+                        }
+
+                else
+                printf("%c",text[len]);
+                        i++;
+
+                                    }
+         }
+
 
 
 return 0;
