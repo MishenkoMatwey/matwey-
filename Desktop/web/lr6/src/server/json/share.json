@@ -1,0 +1,18 @@
+[
+  {
+    "id": 0,
+    "name": "wee",
+    "law": "add",
+    "max": "wf",
+    "number": "ef",
+    "initial_cost": "1000"
+  },
+  {
+    "id": 1,
+    "name": "123",
+    "law": "123",
+    "max": "weg",
+    "number": "3213",
+    "initial_cost": "123233"
+  }
+]
